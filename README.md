@@ -1,0 +1,2 @@
+# TecnicasIA
+Datasets
