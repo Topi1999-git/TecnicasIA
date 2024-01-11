@@ -1,0 +1,373 @@
+<!DOCTYPE HTML>
+<!--
+	Snapshot by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<style>
+
+pre {
+    background-color: lightgrey;
+    font-size: 13pt;
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+
+    line-height: 1.45;
+    overflow: auto;
+    padding: 0 1.5em !important;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  vertical-align:center;
+  margin-left: auto; 
+  margin-right: auto;
+  font-size:75% !important;
+  border-width:0.1px  !important;
+  border-style:solid  !important;
+  border-color:black  !important;
+}
+
+td, th {
+  border: 0.5px solid #dddddd;
+  text-align: center;
+  padding: 1px;
+}
+
+td:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+td:nth-child(1) {
+  text-align: left;
+  color:black;
+}
+
+.explanation {
+
+  color: black;
+  margin: 2em;
+  padding: 1em;
+  width: auto;
+} 
+
+.code_explanation {
+
+  margin: 1em;
+  padding: 0 1.5em !important;
+  width: auto;
+  #white-space: normal;
+} 
+pre code{
+  padding: 0 1.5em !important;
+}
+
+.max-small {
+    display: block;
+    padding: 1.5em !important;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    vertical-align:middle !important;
+    
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background:None !important;
+  margin:1px !important;
+}
+
+
+</style>
+
+<html>
+	<head>
+		<title>ANIMAL-10N Dataset</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/prism.css" />
+
+	</head>
+	<body >
+	<script src="assets/js/prism.js"></script>
+		<div class="page-wrap">
+		
+
+			<!-- Main -->
+				<section id="main">
+
+					<!-- Banner -->
+						<section id="banner">
+							<div class="inner">
+								<h1>Animal-10N Dataset</h1>
+								<p>Noisy Dataset of Human-Labeled Online Images for 10 Animals
+								<ul class="actions">
+									<li><a href="https://forms.gle/8mbmbNgDFQ2rA1fLA" class="button alt scrolly big">Get Dataset</a></li>
+								</ul>
+							</div>
+						</section>
+
+					<!-- Gallery -->
+						<section id="galleries">
+
+							<!-- Photo Galleries -->
+								<div class="gallery">
+									<header class="special">
+										<h2>10 Classes of Animals in the Dataset</h2>
+									</header>
+									<div class="content">
+										<div class="media">
+											<a href="images/fulls/01.jpg"><img src="images/thumbs/01.jpg" alt="" title="This animal here is a cat." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/09.jpg"><img src="images/thumbs/09.jpg" alt="" title="This animal here is a hamster." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/08.jpg"><img src="images/thumbs/08.jpg" alt="" title="This animal here is a wolf." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/02.jpg"><img src="images/thumbs/02.jpg" alt="" title="This animal here is a cheetah." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/03.jpg"><img src="images/thumbs/03.jpg" alt="" title="This animal here is a chimpanzee." /></a>
+										</div>
+
+										<div class="media">
+											<a href="images/fulls/05.jpg"><img src="images/thumbs/05.jpg" alt="" title="This animal here is a lynx." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/10.jpg"><img src="images/thumbs/10.jpg" alt="" title="This animal here is a guinea pig." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/04.jpg"><img src="images/thumbs/04.jpg" alt="" title="This animal here is a coyote." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/06.jpg"><img src="images/thumbs/06.jpg" alt="" title="This animal here is a jaguar." /></a>
+										</div>
+										<div class="media">
+											<a href="images/fulls/07.jpg"><img src="images/thumbs/07.jpg" alt="" title="This animal here is a orangutan." /></a>
+										</div>
+									</div>
+								</div>
+						</section>
+
+					<!-- Contact -->
+						<section id="contact">
+							<!-- Social -->
+								<div class="column">
+									<h3>Summary of the ANIMAL-10N Dataset</h3>
+
+<table>
+  <tr>
+    <td>Number of Training Images:</td>
+    <td>50,000</td>
+    <td>Attribute Characteristics: </td>
+    <td>Real</td>
+    <td>Missing Values:</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>Number of Testing Images:</td>
+    <td>5,000</td>
+    <td>Data Set Characteristics:  </td>
+    <td>Multivariate</td>
+    <td>Date Created:</td>
+    <td>April 2019</td>
+  </tr>
+  <tr>
+    <td>Number of Image Labels:</td>
+    <td>10</td>
+    <td>Resolution:</td>
+    <td>64x64(RGB)</td>
+    <td>Area:</td>
+    <td>Animal</td>
+  </tr>
+</table> 
+
+									<p>ANIMAL-10N dataset contains 5 pairs of confusing animals with a total of 55,000 images. The 5 pairs are as following: (cat, lynx), (jaguar, cheetah), (wolf, coyote), (chimpanzee,
+orangutan), (hamster, guinea pig).
+<br> The images are crawled from several online search engines including Bing and Google using the predifined labels as the search keyword. The images are then classified by 15 recruited participants(10 undergraduate & 5 graduate students); each participants annotated a total of 6,000 images with 600 images per class.
+<br> After removing irrelevant images, the training dataset contains 50,000 images and the test dataset contains 5,000 images. The noise rate(mislabeling ratio) of the dataset is about 8%. For more information, please refer to the paper.</p>
+									
+                                  
+								</div>
+
+
+
+							<!-- Form -->
+								<div class="social column">
+									<h3>Citation</h3>
+									<p>If you love using our dataset in your research, please cite our paper below:<br>
+<b>Song, H., Kim, M., and Lee, J., "SELFIE: Refurbishing Unclean Samples for Robust Deep Learning," In Proc. 36th Int'l Conf. on Machine Learning (ICML), Long Beach, California, June 2019</b></p>
+									<p>You can use this BibTeX<br>
+									@inproceedings{song2019selfie,
+
+<br> 
+title={{SELFIE}: Refurbishing Unclean Samples for Robust Deep Learning},
+<br>
+author={Song, Hwanjun and Kim, Minseok and Lee, Jae-Gil},
+<br> 
+booktitle={ICML},
+<br>
+year={2019}
+}</p>
+									<p><a href="https://forms.gle/8mbmbNgDFQ2rA1fLA">Click here</a> to get ANIMAL-10N dataset<br>
+									For more questions, please send email to <a href="mailto:minseokkim@kaist.ac.kr">minseokkim@kaist.ac.kr</a></p>
+								</div>
+
+						</section>
+
+						<section id="description" class="column explanation">						
+						<div class='social article'>
+							<h2>ANIMAL-10N Dataset Description</h2>
+							<p><b>Data Collection</b>: To include human error in the image labeling process, we first defined five pairs of "confusing" animals:
+{(cat, lynx), (jaguar, cheetah), (wolf, coyote), (chimpanzee, orangutan), (hamster, guinea pig)}, where two animals in each pair look very similar. Then, we crawled 6,000 images for each of the ten animals on Google and Bing by using the animal name as a search keyword. Consequently, in total, 60,000 images were collected. </p>
+
+
+<p><b>Data Labeling</b>: For human labeling, we recruited 15 participants, which were composed of ten undergraduate and five graduate students, on the KAIST online community. They were educated for one hour about the characteristics of each animal before the labeling process, and each of them was asked to annotate 4,000 images with the animal names in a week, where an equal number (i.e., 400) of images were given from each animal. More specifically, we combined the images for a pair of animals into a single set and provided each participant with five sets; hence, a participant categorized 800 images as either of two animals five times. After the labeling process was complete, we paid about US $150 to each participant. Finally, excluding irrelevant images, the labels for 55,000 images were generated by the participants. Please note that these labels may involve human mistakes because we intentionally mixed confusing animals. </p>
+
+							
+
+<p><b>Data Organization</b>: We randomly selected 5,000 images for the test set and used the remaining 50,000 images for the training set. Because the test set should be free from noisy labels, only the images whose label matches the search keyword were considered for the test set. Besides, the images are almost evenly distributed to the ten classes (or animals) in both the training and test sets, as shown in the table below. </p>
+</p>
+
+
+<table style=" margin-left: auto; margin-right: auto; ">
+  <tr>
+    <td style="text-align:center;">Label</td>
+    <td>0: Cat</td>
+    <td>1: Lynx</td>
+    <td>2: Wolf</td>
+    <td>3: Coyote</td>
+    <td>4: Cheetah</td>
+    <td>5: jaguar</td>
+    <td>6: Chimpanzee</td>
+    <td>7: Orangutan</td>
+    <td>8: Hamster</td>
+    <td>9: Guinea pig</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">Number of Samples in Training </td>
+    <td>5466</td>
+    <td>4608</td>
+    <td>5091</td>
+    <td>4841</td>
+    <td>4981</td>
+    <td>4913</td>
+    <td>5322</td>
+    <td>4999</td>
+    <td>4970</td>
+    <td>4809</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">Number of Samples in Testing </td>
+    <td>557</td>
+    <td>485</td>
+    <td>423</td>
+    <td>410</td>
+    <td>509</td>
+    <td>524</td>
+    <td>620</td>
+    <td>557</td>
+    <td>440</td>
+    <td>475</td>
+  </tr>
+</table>            
+
+	
+
+<p><b>Noise Rate Estimation by Accuracy:</b> Because the ground-truth labels are unknown, we estimated the noise rate &tau; by the cross-validation with grid search. We trained DenseNet (L=25, k=12) using SELFIE on the 50, 000 training images and evaluated the performance on the 5, 000 testing images. We found the best noise rate &tau; = 0.08 from a grid noise rate &tau; &#8712; [0.06, 0.13] when noise rate was incremented by 0.01. Therefore, we decided to set noise rate &tau; = 0.08 for ANIMAL-10N.</p>
+
+<div style="max-width:600px; max-height:480px; margin: auto;"><img class='max-small' src="images/noise_rate.png"></div>
+
+<p><b>Noise Rate Estimation by Human Inspection:</b> We also estimated the noise rate &tau; by human inspection to verify the result based on the grid search. To this end, we randomly sampled 6,000 images and acquired two more labels for each of these images in the same way. Meanwhile, human experts different from the 15 participants carefully examined the 6,000 images to get the ground-truth labels. Comparing the human labels and the ground-truth labels in the image below, the former in the legend represents the number of the votes for the true label, and the latter represents the number of the votes for the other label. Because three votes were ready for each image, for conservative estimation, the final human label was decided by majority. Thus, the two cases of 3:0 and 2:1 were regarded as correct labeling, and the other two cases of 1:2 and 0:3 were regarded as incorrect labeling.
+Overall, the proportion of incorrect human labels was 4.08 + 2.36 = 6.44% in the sample, and it is fairly close to &tau; = 0.08 obtained by the grid search. </p>
+
+
+<div style="max-width:600px; max-height:300px; margin: auto;"><img class='max-small' src="images/human_inspection.png"></div>
+
+
+
+<p><b>Result with Realistic Noise:</b> The table below summarizes the best test errors of the four training methods using the two architectures on ANIMAL-10N. In both architectures, SELFIE achieved the lowest test error. Specifically, SELFIE improved the absolute test error by up to 0.9pp using DenseNet (L=25, k=12) and 2.4pp using VGG-19. SELFIE maintained its dominance over other methods on realistic noise, though the performance gain was not that huge because of a light noise rate (i.e., 8%).</p>
+
+
+<table style="max-width:360px; margin-left: auto; margin-right: auto; ">
+  <tr style='font-size:120%; background-color: #dddddd;'>
+    <th style="text-align:center;">Method</th>
+    <th style="text-align:center;">DenseNet (L=25, k=12)</th>
+    <th style="text-align:center;">VGG-19</th>
+  </tr>
+  <tr>
+    <td><i>Default</i></td>
+    <td>17.9&plusmn;0.02</td>
+    <td>20.6&plusmn;0.14</td>
+  </tr>
+  <tr>
+    <td><i>ActiveBias</i></td>
+    <td>17.6&plusmn;0.17</td>
+    <td>19.5&plusmn;0.26</td>
+  </tr>
+  <tr>
+    <td><i>Coteaching(&tau; = 0.08)</i></td>
+    <td>17.5&plusmn;0.17</td>
+    <td>19.8&plusmn;0.13</td>
+  </tr>
+  <tr>
+    <td><i>SELFIE(&tau; = 0.08)</i></td>
+    <td><b>17.0&plusmn;0.10</b></td>
+    <td><b>18.2&plusmn;0.09</b></td>
+  </tr>
+  </table>
+
+<p style='margin: 0 !important'><b>Data Format:</b></p>
+							<pre class="code_explanation"><code class="language-HTML" style="background-color:lightgrey !important; border:None !important; tab-size:0 !important; color:black; !important" >
+The binary version contains the files data_batch_1.bin, data_batch_2.bin, ..., as well as test_batch.bin. 
+Each of these files is formatted as follows:
+&#60;id&#62;&#60;label&#62;&#60;depth x height x width&#62;
+...
+&#60;id&#62;&#60;label&#62;&#60;depth x height x width&#62;
+							</code></pre>
+
+							<br><b>The reading procedure is similar to that of a popular CIFAR-10 tutorial.</b>
+							<pre class="code_explanation"><code class="language-Python" style="background-color:lightgrey !important; border:None !important; tab-size:0 !important; " >
+# You can read our binary files as below:
+ID_BYTES = 4
+LABEL_BYTES = 4
+RECORD_BYTES = ID_BYTES + LABEL_BYTES + width * height * depth
+reader = tf.FixedLengthRecordReader(record_bytes=RECORD_BYTES)
+file_name, value = reader.read(filename_queue)
+byte_record = tf.decode_raw(value, tf.uint8)
+image_id = tf.strided_slice(byte_record, [0], [ID_BYTES])
+image_label = tf.strided_slice(byte_record, [ID_BYTES], [ID_BYTES + LABEL_BYTES])
+array_image = tf.strided_slice(byte_record, [ID_BYTES + LABEL_BYTES], [RECORD_BYTES])
+depth_major_image = tf.reshape(array_image, [depth, height, width])
+record.image = tf.transpose(depth_major_image, [1, 2, 0])
+							</code></pre>
+							<br>For more information, please refer to our <a href="https://github.com/kaist-dmlab/SELFIE">official GitHub page</a>		
+						</div>
+
+				</section>
+					<!-- Footer -->
+						<footer id="footer">
+							<div class="copyright">
+								<a href="https://dm.kaist.ac.kr">&copy; Data Mining Lab, KAIST</a>
+							</div>
+						</footer>
+				</section>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
